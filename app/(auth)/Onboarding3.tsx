@@ -8,10 +8,10 @@ export default function Onboarding2() {
     <View style={Styles.container}>
       {/* Interactive Content */}
 
-      <Image source={require("../images/GuyGuy.png")} style={Styles.GuyGuy} />
-      <Image source={require("../images/Nerd.png")} style={Styles.GuyStop} />
+      <Image source={require("../images/Nerd.png")} style={Styles.GuyGuy} />
+      <Image source={require("../images/GuyGuy.png")} style={Styles.GuyStop} />
 
-      <Image source={require("../images/Nerd.png")} style={Styles.NerdSm} />
+      <Image source={require("../images/GuyStop.png")} style={Styles.NerdSm} />
       <Image source={require("../images/Nerd.png")} style={Styles.NerdSmm2} />
 
       {/* Heading and Description */}
@@ -23,15 +23,8 @@ export default function Onboarding2() {
       {/* Button */}
       <View style={Styles.buttonContainer}>
         {/* Next Button */}
-        <TouchableOpacity
-          onPress={() => router.push("/(auth)/Onboarding3")}
-          style={Styles.nextButton}
-        >
-          <Text style={Styles.buttonText}>Next</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity style={Styles.skipButton}>
-          <Text style={Styles.skipText}>Skip</Text>
+        <TouchableOpacity style={Styles.nextButton}>
+          <Text style={Styles.buttonText}>Continue</Text>
         </TouchableOpacity>
       </View>
 

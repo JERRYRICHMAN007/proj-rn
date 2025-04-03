@@ -152,4 +152,12 @@ export const Styles = StyleSheet.create({
     fontWeight: "bold",
     marginLeft: 5,
   },
+  loginContainer: {
+    flex: 1,
+
+    backgroundColor: "white",
+    color: "black",
+    justifyContent: "center",
+    alignItems: "center",
+  },
 });
